@@ -31,6 +31,10 @@ socials:
   Facebook:
   Slack:
 
+
+analytics:
+  google: #Google Analytics tracking code here
+
 # build settings
 markdown: kramdown
 
