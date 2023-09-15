@@ -35,7 +35,7 @@ $(function() {
       //   $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
   
       //   // debugging
-      //   console.log("FORM: " + name + ", " + phone + ", " + email + ", " + message);
+         console.log("FORM: ");
   
   
       //   $.ajax({

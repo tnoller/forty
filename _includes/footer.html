@@ -2,7 +2,7 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form id="contactForm" action="https://formspree.io/f/mjvqweyw" novalidate="novalidate" method="POST">
+			<form name="sentMessage" id="contactForm" action="https://formspree.io/f/mjvqweyw" novalidate="novalidate" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" placeholder="Your Name *" required data-validation-required-message="Please enter your name."/>
@@ -65,5 +65,6 @@
 	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/contact_me.js" | absolute_url }}"></script>
 	<script src="{{ "assets/js/jqBootstrapValidation.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jQuery-1.11.0.js" | absolute_url }}"></script>
 	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
 	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
